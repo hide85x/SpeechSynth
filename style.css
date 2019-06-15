@@ -1,0 +1,108 @@
+html {
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+
+body{
+
+    margin:40px 0;
+    padding: 0;
+   background: url('./How-I-Overcame-the-Fear-of-Public-Speaking_SOURCE_flickr_2_1.jpg');
+   background-size: cover;
+   background-position-x: 150px;
+   display: flex;
+   justify-content: stretch
+
+}
+select {
+    margin:10px;
+    height: 30px;
+    color: rgb(135, 166, 222);
+
+}
+.main{
+    font-family: 'Permanent Marker', cursive;
+
+    text-align: center;
+    border: 2px solid goldenrod;
+    margin: auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+    width: 30rem;
+    border-radius: 1rem;
+    position: relative;
+    background: rgba(23, 89, 211, 0.233);
+    overflow: hidden;
+    z-index: 1;
+     box-shadow: 0 0 30px 15px rgb(36, 36, 35);
+}
+label {
+    margin:5px;
+    text-align: center;
+    color: yellow;
+    font-size: 22px;
+
+}
+h1 {
+    background: dodgerblue;
+    width: calc(100% + 4rem); 
+    margin: -2rem 0 2rem -2rem;
+    padding: .5rem;
+    color: yellow;
+    border:20px solid dodgerblue
+}
+.input {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid gold;
+    justify-content: center;
+    border-radius: 20px;
+    margin:10px 0
+}
+input[type="range"] {
+    background: dodgerblue;
+    border: 2px solid rgba(219, 221, 94, 0.849);
+    border-radius: 20px;
+}
+input {
+    margin:10px;
+}
+
+span{
+    display: flex;
+    justify-content: center
+}
+button {
+    width: 50%;
+    height:50px;
+    background: dodgerblue;
+    color: yellow;
+    font-size: 25px;
+    border:2px solid burlywood;
+    margin:1px;
+    font-family: 'Permanent Marker', cursive;
+    transform: scale();
+    transition: transform 0.3s
+
+}
+button:hover {
+    transform: scale(1.1);
+    border:3px solid yellowgreen;
+    cursor: pointer;
+    
+
+}
+textarea {
+    text-align: center;
+    padding: 10px;
+    border: 2px solid gold;
+    
+
+}
